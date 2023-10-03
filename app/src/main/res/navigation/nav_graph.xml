@@ -16,9 +16,6 @@
         android:id="@+id/action_homeFragment_to_anotherFragment"
         app:destination="@id/anotherFragment" />
 
-    <action
-        android:id="@+id/action_homeFragment_to_mainActivity2"
-        app:destination="@id/mainActivity2" />
 
     <fragment
         android:id="@+id/anotherFragment"
@@ -26,10 +23,4 @@
         android:label="fragment_another"
         tools:layout="@layout/fragment_another" />
 
-
-    <activity
-        android:id="@+id/mainActivity2"
-        android:name="com.example.understandinglifecycle.MainActivity2"
-        android:label="activity_main2"
-        tools:layout="@layout/activity_main2" />
 </navigation>

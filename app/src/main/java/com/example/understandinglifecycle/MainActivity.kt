@@ -18,9 +18,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         Log.e("Activity", "onCreate2")
         setContentView(R.layout.activity_main)
-
-        val intent = Intent(this, MainActivity2::class.java)
-
         Log.e("Activity", "onCreate3")
     }
 

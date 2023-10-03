@@ -5,6 +5,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import androidx.navigation.Navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import com.example.understandinglifecycle.databinding.ActivityMain2Binding
 
 // MainActivity2 - 반투명 액티비티
